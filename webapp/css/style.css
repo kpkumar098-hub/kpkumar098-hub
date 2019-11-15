@@ -1,0 +1,67 @@
+/* Enter your custom styles here */
+
+.redText{
+	color : red;
+	font-weight: bold;
+}
+
+.blink {
+	color : blue;
+	font-weight: bold;
+    animation-duration: 1s;
+    animation-name: blink;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+@keyframes blink {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+.myRedText {
+    color: blue;
+    width: 25%;
+    
+    font-weight: bold;
+    text-align:center;
+    
+    border-style: ridge;
+     border-color: red;
+    
+    margin: 50px 50px 50px 50px;
+    padding: 10px 10px 10px 10px;
+}
+
+.myAppDemoWTmyCustomButton.sapMBtn {
+	margin-right: 0.125rem;
+}
+.myAppDemoWTmyCustomText {
+	font-weight: bold;
+}
+/*  ProductRating */
+.myAppDemoWTProductRating {
+	padding: 0.75rem;
+}
+.myAppDemoWTProductRating .sapMRI {
+	vertical-align: initial;
+}
+
+.mySuperRedButton .sapMBtnInner {
+  color: red;
+}
+
+
+.mySquare {                  /* style the CSS class that has been written by the renderer method */
+        display: inline-block;   /* enable squares to appear next to each other within one line */
+        border: 1px solid red;   /* add some border, so the square can actually be seen */
+        background-color: #ddd;
+        padding: 8px;
+        text-align: center;
+        -moz-box-sizing: border-box; /* consider padding+border part of the width/height */
+        box-sizing: border-box;
+    }

@@ -1,0 +1,14 @@
+<mvc:View controllerName="CustomControlUI5.controller.HomeView" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m"
+	xmlns:cc="CustomControlUI5.control">
+	<App>
+		<pages>
+			<Page title="Custom UI Control Example">
+				<content>
+					<cc:ClickText txt="This is Clickable Text" press="onTxtPress" />
+					<cc:ProductRating class="sapUiSmallMarginBeginEnd" change="onProdRating"/>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
