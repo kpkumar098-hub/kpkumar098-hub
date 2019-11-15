@@ -17,7 +17,7 @@ sap.ui.define([
 			
 			renderer : function(oRM, oControl){
 				oRM.write("<br>");
-				oRM.write("<div style=\"color:#0000FF\">");
+			//	oRM.write("<div style=\"color:#0000FF\">");
 				oRM.write("Value = " + oControl.getValue());
 				oRM.write("</div>");
 			}

@@ -39,7 +39,7 @@ sap.ui.define([
 
 		// an event handler:
 		onclick: function(evt) { // is called when the Control's area is clicked - no event registration required
-			alert("Control clicked! Text of the Control is:\n" + this.getText());
+			//alert("Control clicked! Text of the Control is:\n" + this.getText());
 		}
 
 	});
