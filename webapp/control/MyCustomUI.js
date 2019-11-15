@@ -33,7 +33,7 @@ sap.ui.define([
 		},
 
 		init: function() {
-			console.log("inside _onSubmit");
+			//console.log("inside _onSubmit");
 			this.setAggregation("_button", new Button({
 				text: "ABAO",
 				press: this._onSubmit.bind(this)
@@ -41,7 +41,7 @@ sap.ui.define([
 		},
 
 		_onSubmit: function(oEvent) {
-			console.log("inside _onSubmit");
+		//	console.log("inside _onSubmit");
 
 			this.fireEvent("press", {
 				value: this.getValue()
